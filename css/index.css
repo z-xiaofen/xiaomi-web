@@ -1,0 +1,1109 @@
+.fixed {
+    position: fixed;
+    width: 84px;
+    height: 561px;
+    bottom: 70px;
+    right: 1px;
+    z-index: 9999;
+}
+
+a {
+    color: #000;
+}
+
+.fixed ul li {
+    width: 84px;
+    height: 92px;
+    text-align: center;
+    background: rgb(255, 255, 255);
+    border: 1px solid #f5f5f5;
+}
+
+.fixed ul li a {
+    display: block;
+    width: 84px;
+    height: 92px;
+}
+
+.fixed ul li:hover {
+    color: #ff6700;
+    background: rgb(228, 225, 225);
+}
+
+.fixed ul li a img {
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.fixed ul li a span {
+    display: block;
+    color: #757575;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.fixed>ul>li>a>div>img {
+    width: 100px;
+    height: 100px;
+    margin-top: 15px;
+}
+
+.fixed>ul>li>a>div {
+    position: absolute;
+    top: 0;
+    text-align: center;
+    left: -150px;
+    width: 130px;
+    height: 130px;
+    background: rgb(255, 252, 252);
+    display: none;
+}
+
+.fixed ul li:nth-child(6) {
+    margin-top: 9px;
+}
+
+
+/* 粘性定位 */
+
+nav {
+    position: relative;
+    height: 100px;
+}
+
+nav .nav-logo h1 a {
+    display: block;
+    width: 55px;
+    height: 55px;
+    font-size: 0px;
+}
+
+nav .nav-logo {
+    position: absolute;
+    background-image: url(../images/logo-footer.png);
+    top: 22px;
+    left: 0;
+    margin: auto 0;
+    width: 55px;
+    height: 55px;
+}
+
+nav .nav-logo img {
+    width: 100%;
+    height: 100%;
+}
+
+nav .nav-text {
+    position: absolute;
+    left: 220px;
+    width: auto;
+    font-size: 16px;
+    height: 100px;
+}
+
+nav .nav-text ul li {
+    display: inline-block;
+    margin: 0 5px;
+    line-height: 100px;
+}
+
+nav .nav-text ul li a {
+    color: #333333;
+}
+
+nav .nav-text ul li a:hover {
+    color: #ff6700;
+}
+
+nav .search input {
+    position: absolute;
+    top: 0;
+    right: 50px;
+    width: 245px;
+    height: 50px;
+    outline: none;
+    margin: 25px 0;
+    padding: 0 10px;
+    background: #FFFFFF;
+    border: 1px 0 1px 1px;
+}
+
+nav button {
+    position: absolute;
+    margin: 25px 0;
+    top: 0;
+    right: 0;
+    outline: none;
+    width: 52px;
+    height: 50px;
+    font-family: 'icomoon';
+    font-size: 19px;
+}
+
+
+/* slideToggle */
+
+nav .slide div {
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    background: rgb(255, 255, 255);
+    width: 100%;
+    height: 230px;
+    z-index: 999;
+    border-top: 1px solid rgb(109, 108, 108);
+    display: none;
+}
+
+.mask {
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    display: block;
+    background: rgb(255, 255, 255);
+    width: 100%;
+    height: 230px;
+    z-index: 999;
+    border-top: 1px solid rgb(109, 108, 108);
+    display: none;
+}
+
+.slide div ul {
+    display: flex;
+    text-align: center;
+}
+
+.slide div>ul>li {
+    flex: 1;
+    height: 230px;
+}
+
+.slide div>ul>li>a {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.slide div>ul>li>a img {
+    width: 160px;
+    height: 110px;
+    margin-top: 37px;
+}
+
+.slide div>ul>li>a span {
+    display: block;
+    color: #333131;
+    font-size: 12px;
+    margin-top: 16px;
+}
+
+.slide div>ul>li>a p {
+    font-size: 12px;
+    color: #ff6700;
+    margin-top: 4px;
+}
+
+
+/* nav button img {
+    margin-top: 5px;
+    width: 17px;
+    height: 17px;
+} */
+
+nav button:hover {
+    background-color: #ff6700;
+    width: 52px;
+    height: 50px;
+    border: 0px;
+    color: #ffffff;
+}
+
+.top-service {
+    position: relative;
+    height: 460px;
+}
+
+
+/*  */
+
+.lbt {
+    position: relative;
+    width: 1226px;
+    height: 460px;
+    overflow: hidden;
+}
+
+.lbt ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100000px;
+    height: 100%;
+}
+
+.lbt ul li {
+    width: 1226px;
+    height: 460px;
+    float: left;
+    transition: all 0.5s;
+}
+
+
+/*  */
+
+.top-service img {
+    width: 100%;
+    height: 100%;
+}
+
+.top-service .left-nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 234px;
+    height: 460px;
+    background: rgba(0, 0, 0, .2);
+}
+
+.top-service .left-nav>ul {
+    margin: 20px 0;
+}
+
+.top-service .left-nav>ul li {
+    position: relative;
+    display: inline-block;
+    width: 234px;
+    height: 42px;
+    line-height: 42px;
+    font-size: 14px;
+    color: #ffffff;
+    padding: 0 0 0 30px;
+}
+
+.top-service .left-nav .text-block {
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 234px;
+    z-index: 3;
+    width: 992px;
+    height: 460px;
+    background: #ffffff;
+    box-shadow: 0 0 12px #bbb;
+}
+
+.text-block>ul {
+    padding: 2px 0;
+}
+
+.text-block>ul>li {
+    width: 248px;
+    height: 76px;
+    line-height: 76px;
+    list-style: none;
+    float: left;
+    padding: 10px 20px;
+}
+
+.text-block>ul>li>img {
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+
+.text-block>ul>li>a {
+    display: block;
+    color: #000;
+    font-size: 14px;
+    margin-left: 15px;
+    margin-top: -10px;
+}
+
+.text-block>ul>li>a:hover {
+    color: #ff6700;
+}
+
+.top-service .left-nav>ul li:hover {
+    background: #ff6700;
+}
+
+.top-service .left-nav>ulli::after {
+    position: absolute;
+    z-index: 1;
+    content: "";
+    right: 15px;
+    font-family: 'icomoon';
+    line-height: 42px;
+    font-size: 20px;
+}
+
+.top-service .left,
+.top-service .right {
+    position: absolute;
+    font-family: 'icomoon';
+    top: 195px;
+    width: 41px;
+    height: 70px;
+    font-size: 60px;
+    text-align: center;
+    color: rgba(160, 156, 156, 0.3);
+    background-color: rgba(0, 0, 0, .0);
+}
+
+.top-service .left:hover {
+    background-color: rgba(0, 0, 0, .3);
+    color: rgba(160, 156, 156, 0.7);
+}
+
+.top-service .right:hover {
+    background-color: rgba(0, 0, 0, .3);
+    color: rgba(160, 156, 156, 0.7);
+}
+
+.top-service .left h4 {
+    font-weight: normal;
+    margin: 5px -10px;
+}
+
+.top-service .right h4 {
+    font-weight: normal;
+    margin: 5px -10px;
+}
+
+.top-service .left {
+    left: 234px;
+    border-radius: 0px 6px 6px 0px;
+    cursor: pointer;
+}
+
+.top-service .right {
+    right: 0;
+    border-radius: 6px 0px 0px 6px;
+    cursor: pointer;
+}
+
+.top-service .bottom {
+    position: absolute;
+    bottom: 20px;
+    right: 50px;
+    width: auto;
+    height: 21px;
+    padding: 0 15px;
+    border-radius: 10px;
+}
+
+
+/* 轮播图小圆点 */
+
+.top-service .bottom:hover {
+    background: rgba(175, 172, 172, 0.3);
+}
+
+.top-service .bottom a {
+    /* float: right; */
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    margin: 5px 5px;
+    border: #818181 2px solid;
+}
+
+.lahover {
+    background: #ff6700;
+}
+
+.img {
+    width: 1226px;
+    height: 170px;
+    margin: 14px auto;
+}
+
+.img .l-img {
+    float: left;
+    width: 234px;
+    height: 100%;
+    background: #5f5750
+}
+
+.img .l-img ul {
+    margin: 3px 3px;
+}
+
+.img .l-img ul li {
+    font-family: 'icomoon';
+    font-size: 24px;
+    padding-top: 20px;
+    text-align: center;
+    color: #ada9a9;
+    display: block;
+    float: left;
+    margin: 0 0;
+    width: 76px;
+    height: 82px;
+}
+
+.img .l-img ul li:hover {
+    color: rgb(230, 230, 230);
+}
+
+.img .l-img ul li p {
+    font-size: 14px;
+}
+
+.img ul li {
+    /* display: inline-block; */
+    float: left;
+    width: 316px;
+    height: 170px;
+    margin-left: 14px;
+}
+
+.img ul li img {
+    width: 100%;
+    height: 100%;
+}
+
+.main-box {
+    width: 100%;
+    overflow: hidden;
+    height: auto;
+    margin-top: 30px;
+    background: #f5f5f5
+}
+
+.main-box .box {
+    width: 1226px;
+    height: 340px;
+}
+
+.main-box .top-box {
+    position: relative;
+    width: 100%;
+    height: 57.6px;
+}
+
+.main-box .top-box p {
+    line-height: 57.6px;
+    font-size: 22px;
+    color: #333333;
+    font-weight: lighter;
+}
+
+.main-box .top-box div {
+    position: absolute;
+    top: 16.3px;
+    right: 0;
+}
+
+.main-box .top-box div span {
+    font-family: 'icomoon';
+    display: block;
+    float: left;
+    font-size: 24px;
+    text-align: center;
+    color: rgb(199, 196, 196);
+    width: 36px;
+    height: 24px;
+    margin: 0 0 0-1px;
+    border: rgb(223, 208, 208) solid 1px;
+}
+
+.main-box .top-box div span:hover {
+    color: #ff6700;
+    cursor: pointer;
+}
+
+.main-box .box .row {
+    width: 1240px;
+    height: 340px;
+    margin: 0px 0px 0px -14px;
+}
+
+.main-box .box .row .row-text {
+    width: 234px;
+    height: 285px;
+    margin-top: 53px;
+    text-align: center;
+}
+
+.main-box .time {
+    margin: 0 auto;
+    text-align: center;
+    color: #ef3a3b;
+    height: 26.2px;
+    font-size: 21px;
+}
+
+.main-box .photo {
+    width: 34px;
+    height: 53px;
+    margin: 25px auto;
+}
+
+.main-box .box .row .row-text p {
+    float: left;
+    width: 234px;
+    font-size: 15px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    color: rgba(0, 0, 0, .54);
+}
+
+.main-box .box .row .row-text span {
+    display: inline-block;
+    width: 46px;
+    height: 46px;
+    background: #605751;
+    color: #fff;
+    font-size: 24px;
+    line-height: 46px;
+}
+
+.main-box .box .row .row-text i {
+    width: 15px;
+    height: 46px;
+    line-height: 46px;
+    color: #605751;
+    font-size: 28px;
+    font-style: normal;
+}
+
+
+/* .main-box .box .row ul {
+    overflow: hidden;
+} */
+
+.main-box .box .row ul li {
+    float: left;
+    width: 234px;
+    height: 339px;
+    margin-left: 14px;
+    background: #ffffff;
+    box-sizing: border-box;
+}
+
+.main-box .box .row ul li:nth-child(1) {
+    border-top: springgreen 1px solid;
+    background: #f1eded;
+}
+
+.main-box .box .row ul li:nth-child(2) {
+    border-top: red 1px solid;
+}
+
+.main-box .box .row ul li:nth-child(3) {
+    border-top: blue 1px solid;
+}
+
+.main-box .box .row ul li:nth-child(4) {
+    border-top: orange 1px solid;
+}
+
+.main-box .box .row ul li:nth-child(5) {
+    border-top: purple 1px solid;
+}
+
+.main-box .box .row ul li h4 {
+    font-weight: normal;
+}
+
+.main-box .box .row ul li p {
+    font-size: 12px;
+    margin: 4px 0;
+    color: rgb(161, 160, 160);
+}
+
+.main-box .box .row ul li span {
+    display: inline-block;
+    margin-top: 3px;
+}
+
+.main-box .box .row ul li span .q {
+    font-size: 16px;
+    color: #ff6700;
+    padding-right: 7px;
+}
+
+.main-box .box .row ul li span .p {
+    font-size: 16px;
+    color: #bbb7b7;
+    text-decoration: line-through;
+}
+
+.main-box .box .row ul li .img {
+    width: 224px;
+    height: 224px;
+    margin: 0 5px;
+    text-align: center;
+}
+
+.main-box .box .row ul li .img img {
+    width: 100%;
+    height: 100%;
+}
+
+.xiaomi {
+    height: 120px;
+    width: 100%;
+    float: left;
+    margin: 25px 0;
+}
+
+.xiaomi img {
+    clear: both;
+    width: 1226px;
+    height: 120px;
+    margin: 0 auto;
+}
+
+.main-box .phone {
+    clear: both;
+    width: 1226px;
+    height: 57.6px;
+    line-height: 57.6px;
+}
+
+.main-box .phone p {
+    font-size: 22px;
+    float: left;
+    line-height: 57.6px;
+    margin: auto 0;
+    font-weight: lighter;
+}
+
+.main-box .phone a {
+    display: block;
+    float: right;
+    margin: 20px 0;
+    font-size: 16px;
+    line-height: 20px;
+    width: 92px;
+    height: 20px;
+    transition: color .3s;
+}
+
+.main-box .phone a::after {
+    font-family: 'icomoon';
+    display: block;
+    content: "";
+    float: right;
+    color: #ffffff;
+    border-radius: 9px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    background: #b0b0b0;
+}
+
+.main-box .phone a:hover {
+    color: #ff6700;
+}
+
+.main-box .phone a:hover::after {
+    background: #ff6700;
+    color: #ffffff;
+}
+
+
+/* 手机 */
+
+.miphone {
+    position: relative;
+    height: 614px;
+}
+
+.miphone .mi-l {
+    position: absolute;
+    /* float: left; */
+    top: 0;
+    left: 0;
+    width: 234px;
+    height: 614px;
+}
+
+.miphone .mi-l img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* 手机展示部分 */
+
+.miphone .mi-r {
+    position: absolute;
+    /* float: left; */
+    top: 0;
+    right: 0;
+    width: 992px;
+    height: 614px;
+    /* margin-top: -2px; */
+    /* overflow: visible; */
+}
+
+.miphone .mi-r ul li {
+    position: relative;
+    float: left;
+    width: 234px;
+    height: 300px;
+    margin-left: 14px;
+}
+
+.miphone .mi-r ul li:nth-child(1),
+.miphone .mi-r ul li:nth-child(2),
+.miphone .mi-r ul li:nth-child(3),
+.miphone .mi-r ul li:nth-child(4) {
+    margin-bottom: 14px;
+}
+
+.miphone .mi-r ul li a {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    text-align: center;
+    padding: 20px 0;
+    width: 234px;
+    height: 300px;
+    transition: all .3s;
+    background: #fff;
+}
+
+.miphone .mi-r ul a:hover {
+    top: -2px;
+    /* box-shadow: 0px 6px 72px -34px rgba(0, 0, 0, .3); */
+    box-shadow: 0 0 12px #bbb;
+}
+
+
+/* 手机展示部分结束 */
+
+
+/* 产品图部分 */
+
+.miphone .mi-r ul li a img {
+    width: 160px;
+    height: 160px;
+}
+
+.miphone .mi-r ul li a h3 {
+    font-size: 14px;
+    font-weight: normal;
+    color: #333333;
+    margin: 15px 10px 2px;
+}
+
+.miphone .mi-r ul li a p {
+    font-size: 12px;
+    color: #b0b0b0;
+    margin: 0px 10px 10px;
+}
+
+.miphone .mi-r ul li a span {
+    font-size: 14px;
+    color: #ff6700;
+}
+
+
+/* 米家 */
+
+.tv {
+    width: 1226px;
+    height: 120px;
+    margin-top: 35px;
+}
+
+.tv img {
+    width: 100%;
+    height: 100%;
+}
+
+.mihome {
+    width: 1226px;
+    height: 57.6px;
+    /* background: rgb(133, 95, 95); */
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.mihome p {
+    font-size: 22px;
+    float: left;
+    line-height: 57.6px;
+    margin: auto 0;
+    font-weight: lighter;
+}
+
+.mihome span ul li {
+    float: right;
+    height: 26px;
+    margin-top: 15.8px;
+    line-height: 26px;
+    text-align: center;
+}
+
+.mihome span ul li a {
+    display: block;
+    font-size: 16px;
+    transition: .2s;
+}
+
+.ahover {
+    color: #ff6700;
+    border-bottom: 2px #ff6700 solid;
+}
+
+.null {
+    float: right;
+    height: 26px;
+    width: 24px;
+}
+
+
+/* 米家展示—————————————————————————— */
+
+.mijia {
+    position: relative;
+    height: 614px;
+}
+
+.mijia .mijia-main {
+    position: absolute;
+    /* float: left; */
+    top: 0;
+    right: 0;
+    width: 1226px;
+    height: 614px;
+    /* margin-top: -2px; */
+    /* overflow: visible; */
+}
+
+.mijia .mijia-main ul li {
+    position: relative;
+    float: left;
+    width: 234px;
+    height: 300px;
+    margin-right: 14px;
+}
+
+.mijia .mijia-main ul li:nth-child(1),
+.mijia .mijia-main ul li:nth-child(2),
+.mijia .mijia-main ul li:nth-child(3),
+.mijia .mijia-main ul li:nth-child(4),
+.mijia .mijia-main ul li:nth-child(5) {
+    margin-bottom: 14px;
+}
+
+.mijia .mijia-main ul li:nth-child(5),
+.mijia .mijia-main ul li:nth-child(10) {
+    margin-right: 0px;
+}
+
+.mijia .mijia-main ul li a {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    text-align: center;
+    padding: 20px 0;
+    width: 234px;
+    height: 300px;
+    transition: all .3s;
+    background: #fff;
+}
+
+.mijia .mijia-main ul li a img {
+    width: 160px;
+    height: 160px;
+}
+
+.mijia .mijia-main ul>li>a>.mijia-image {
+    width: 234px;
+    height: 300px;
+    margin-top: 0;
+}
+
+.mijia .mijia-main ul li .padding {
+    padding: 0;
+}
+
+.mijia .mijia-main ul li a h3 {
+    font-size: 14px;
+    font-weight: normal;
+    color: #333333;
+    margin: 15px 10px 2px;
+}
+
+.mijia .mijia-main ul li a p {
+    font-size: 12px;
+    color: #b0b0b0;
+    margin: 0px 10px 10px;
+}
+
+.mijia .mijia-main ul li a span {
+    font-size: 14px;
+    color: #ff6700;
+}
+
+.mijia .mijia-main ul a:hover {
+    top: -2px;
+    /* box-shadow: 0px 6px 72px -34px rgba(0, 0, 0, .3); */
+    box-shadow: 0 0 12px #bbb;
+}
+
+.mijia .mijia-main ul li>ul>li {
+    width: 234px;
+    height: 143px;
+}
+
+.mijia .mijia-main ul li>ul>li>a {
+    padding: 0;
+    display: block;
+    float: left;
+    width: 234px;
+    height: 143px;
+    padding: 20px 0;
+}
+
+.mijia .mijia-main ul li>ul>li>a>div {
+    margin: 0;
+    display: inline-block;
+    width: 122px;
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 0;
+    height: auto;
+}
+
+.mijia .mijia-main ul li>ul>li>a>h3 {
+    float: left;
+    font-size: 14px;
+    padding: 0 20px;
+}
+
+.mijia .mijia-main ul li>ul>li>a .p-mijia {
+    font-size: 14px;
+    color: #ff6700;
+    margin-top: 10px;
+}
+
+.mijia .mijia-main ul li>ul>li>a>img {
+    width: 80px;
+    height: 80px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.mijia .mijia-main ul li>ul>li>a .more {
+    width: 234px;
+    height: 143px;
+    margin: 0;
+}
+
+.mijia .mijia-main ul li>ul>li .po {
+    padding: 0;
+}
+
+.site {
+    width: auto;
+    margin-top: 30px;
+    height: 272px;
+    background: #fff;
+}
+
+.site .site-fooder-top {
+    height: 80px;
+}
+
+.site .site-fooder-top ul li {
+    list-style: none;
+    width: 245px;
+    height: 25px;
+    margin-top: 27px;
+    color: #616161;
+    float: left;
+    text-align: center;
+    border-right: 1px solid #616161;
+}
+
+.site-fooder-top ul li p {
+    font-size: 16px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+.site-fooder-top ul li a {
+    width: 245px;
+    height: 25px;
+    display: block;
+    color: #616161;
+    transition: .3s;
+}
+
+.site-fooder-top ul li:nth-child(1) p::before {
+    content: '';
+    font-family: 'icomoon';
+    float: left;
+    display: block;
+    font-size: 24px;
+    margin-left: 40px;
+}
+
+.site-fooder-top ul li:nth-child(2) p::before {
+    content: '';
+    font-family: 'icomoon';
+    float: left;
+    display: block;
+    font-size: 24px;
+    margin-left: 40px;
+}
+
+.site-fooder-top ul li:nth-child(3) p::before {
+    content: '';
+    font-family: 'icomoon';
+    float: left;
+    display: block;
+    font-size: 24px;
+    margin-left: 40px;
+}
+
+.site-fooder-top ul li:nth-child(4) p::before {
+    content: '';
+    font-family: 'icomoon';
+    float: left;
+    display: block;
+    font-size: 24px;
+    margin-left: 40px;
+}
+
+.site-fooder-top ul li:nth-child(5) p::before {
+    content: '';
+    font-family: 'icomoon';
+    float: left;
+    display: block;
+    font-size: 24px;
+    margin-left: 40px;
+}
+
+.site .site-fooder-top>ul>li>a:hover {
+    color: #ff6700;
+}
+
+
+/* 阻止标签蓝色阴影 */
+
+body {
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+
+/* 4.4清明节 web网页 变灰 */
+
+
+/* 
+html {
+    filter: grayscale(100%);
+} */
